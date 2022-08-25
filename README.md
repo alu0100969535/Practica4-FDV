@@ -22,23 +22,25 @@ Se han generado las siguientes animaciones:
     - Land
 
 ### Player animator
-![](img/playeranimator.png)
+![](img/playeranimator.PNG)
 
 ### Gem animator
-![](img/gemanimator.png)
+![](img/gemanimator.PNG)
 
 ### Frog animator
-![](img/froganimator.png)
+![](img/froganimator.PNG)
+
+![](img/animations.gif)
 
 ## 3. Busca en el inspector de objetos la propiedad Flip y comprueba qué pasa al activarla desactivarla en alguno de los ejes.
 
 Al usar el toggle flip el sprite se muestra en modo espejo. Podemos usar esta propiedad para posicionar nuestro sprite mirando a la derecha o izquierda respectivamente.
 
 ### Sin flip
-![](img/noflip.png)
+![](img/noflip.PNG)
 
 ### Con flip
-![](img/flip.png)
+![](img/flip.PNG)
 
 
 ## 4. Mover uno de los personajes con el eje horizontal virtual que definen las teclas de flechas.
@@ -46,6 +48,8 @@ Al usar el toggle flip el sprite se muestra en modo espejo. Podemos usar esta pr
 Se ha creado [PlayerMovement.cs](Assets/Scripts/PlayerMovement.cs) para realizar esta función.
 
 ![](img/playermovement.PNG)
+
+![](img/movement.gif)
 
 La lógica de movimiento se actualiza cada frame y se ejecuta en el método `FixedUpdate()`
 
